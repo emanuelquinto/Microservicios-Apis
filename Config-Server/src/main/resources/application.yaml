@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: Config-Server
+          uri: https://github.com/emanuelquinto/Microservicios-Apis
+          search-paths: config-data
+  application:
+    name: Config-Server
+          
+            
+        

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: carro_service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+      
+
+
+
+
+
+
+
